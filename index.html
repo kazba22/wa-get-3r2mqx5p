@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Work Agent Starter Pack: install</title>
+<style>
+  body{font-family:system-ui,-apple-system,Segoe UI,sans-serif;max-width:720px;margin:40px auto;padding:0 20px;line-height:1.55;color:#1a1a1a}
+  h1{font-size:1.6rem} h2{font-size:1.1rem;margin-top:2rem}
+  pre{background:#f4f4f5;border:1px solid #e4e4e7;border-radius:8px;padding:14px;overflow:auto;white-space:pre-wrap}
+  button{margin:6px 0 0;padding:6px 12px;border:1px solid #bbb;border-radius:6px;background:#fff;cursor:pointer}
+  .note{color:#555;font-size:.92rem}
+</style>
+</head>
+<body>
+<h1>Work Agent Starter Pack</h1>
+<p>Set up your own work agent in Aside. Before you start: install Aside (aside.com/download) and connect your Claude subscription (Settings &gt; Models &gt; Providers &gt; Connect &gt; Claude Subscription).</p>
+
+<h2>Option 1. Paste this into a new Aside task</h2>
+<pre id="p1">Please install my Work Agent Starter Pack and set me up.
+
+1. Read the installer script at https://kazba22.github.io/wa-get-3r2mqx5p/install.sh (Mac) or https://kazba22.github.io/wa-get-3r2mqx5p/install.ps1 (Windows) and check that it only downloads the pack and unpacks it into a WorkAgent folder in my Documents folder.
+2. Run it for my operating system. Ask me to approve folder access or running the command if needed.
+3. The installer prints the path of a file called AGENT-START.md. Read that file and follow it exactly. It tells you how to interview me and build my setup.
+
+While doing this:
+- Tell me before you create or change anything outside the WorkAgent folder.
+- Do not send any message or email. Do not change my accounts.
+- Never ask for or store my passwords, card numbers or security codes.
+- Ask me questions in short rounds, and explain why you are asking each one.</pre>
+<button onclick="navigator.clipboard.writeText(document.getElementById('p1').innerText)">Copy</button>
+
+<h2>Option 2. One command in a terminal</h2>
+<p>Mac or Linux:</p>
+<pre id="p2">curl -fsSL https://kazba22.github.io/wa-get-3r2mqx5p/install.sh | bash</pre>
+<button onclick="navigator.clipboard.writeText(document.getElementById('p2').innerText)">Copy</button>
+<p>Windows PowerShell:</p>
+<pre id="p3">irm https://kazba22.github.io/wa-get-3r2mqx5p/install.ps1 | iex</pre>
+<button onclick="navigator.clipboard.writeText(document.getElementById('p3').innerText)">Copy</button>
+
+<p class="note">The installers are short plain text files you can read first: <a href="install.sh">install.sh</a> and <a href="install.ps1">install.ps1</a>. They only download the pack into a WorkAgent folder in your Documents. No admin rights, no accounts touched.</p>
+</body>
+</html>

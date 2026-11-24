@@ -1,0 +1,11 @@
+Please install my Work Agent Starter Pack and set me up.
+
+1. Read the installer script at https://kazba22.github.io/wa-get-3r2mqx5p/install.sh (Mac) or https://kazba22.github.io/wa-get-3r2mqx5p/install.ps1 (Windows) and check that it only downloads the pack and unpacks it into a WorkAgent folder in my Documents folder.
+2. Run it for my operating system. Ask me to approve folder access or running the command if needed.
+3. The installer prints the path of a file called AGENT-START.md. Read that file and follow it exactly. It tells you how to interview me and build my setup.
+
+While doing this:
+- Tell me before you create or change anything outside the WorkAgent folder.
+- Do not send any message or email. Do not change my accounts.
+- Never ask for or store my passwords, card numbers or security codes.
+- Ask me questions in short rounds, and explain why you are asking each one.
